@@ -7,6 +7,6 @@
 ## Run
 
 ```
-$ npm install django
+$ npm install
 $ python manage.py runserver <port>
 ```
