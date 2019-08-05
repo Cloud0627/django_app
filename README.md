@@ -1,4 +1,12 @@
 # django_app
-npm install django
 
-python manage.py runserver <port>
+## System Environment
+
+- Python 3
+
+## Run
+
+```
+$ npm install django
+$ python manage.py runserver <port>
+```
