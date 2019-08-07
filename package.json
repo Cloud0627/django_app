@@ -1,0 +1,23 @@
+{
+  "name": "django_app",
+  "version": "1.0.0",
+  "description": "- Python 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cloud0627/django_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cloud0627/django_app/issues"
+  },
+  "homepage": "https://github.com/Cloud0627/django_app#readme",
+  "dependencies": {
+    "django": "^1.0.0"
+  }
+}
