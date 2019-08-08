@@ -18,11 +18,15 @@ $ python manage.py runserver <port>
 django-admin startproject プロジェクト名
 ```
 
+■Djangoアプリケーション作成
+```
+oython manage.py startapp アプリケーション名
+```
+
 ■manage.py
 ```
 Djangプロジェクトを実行する様々な機能に関するプログラム
 ```
-
 
 ■__init__.py
 ```
@@ -32,6 +36,7 @@ Djangプロジェクトを実行するときの初期化処理を行うスクリプトファイル
 ■settings.py
 ```
 プロジェクトの設定情報を記述したファイル
+アプリケーションを新規作成した際はこのファイルにも追記する。
 ```
 
 ■urls.py
@@ -43,8 +48,6 @@ Djangプロジェクトを実行するときの初期化処理を行うスクリプトファイル
 ```
 Webアプリのメインプログラム部分
 ```
-
-
 
 
 
