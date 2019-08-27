@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'hello',
+    'teststripe',
 ]
 
 MIDDLEWARE = [
@@ -55,7 +56,7 @@ ROOT_URLCONF = 'django_app.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -119,3 +120,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STRIPE_PUBLISHABLE_KEY = 'pk_test_625dEVlpR9JDoLf7fzDrWwON006qJUDcMf'
+STRIPE_SECRET_KEY = 'sk_test_xfaODGLytvGBCP1mDoygvSRO00CsvrzB87'

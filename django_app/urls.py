@@ -20,4 +20,5 @@ urlpatterns = [
     path('', admin.site.urls),
     path('admin/', admin.site.urls),
     path('hello/', include("hello.urls")),
+    path('stripe/', include("teststripe.urls")),
 ]
