@@ -8,6 +8,8 @@
 
 ```
 $ npm install
+$ python -m pip install --upgrade pip
+$ pip install stripe
 $ python manage.py runserver <port>
 ```
 
