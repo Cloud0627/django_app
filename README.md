@@ -20,7 +20,7 @@ django-admin startproject プロジェクト名
 
 ■Djangoアプリケーション作成
 ```
-oython manage.py startapp アプリケーション名
+python manage.py startapp アプリケーション名
 ```
 
 ■manage.py
