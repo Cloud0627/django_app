@@ -2,8 +2,10 @@
 <form action="{% url 'charge' %}" method="post">
   {% csrf_token %}
   <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-          data-key="{{ key }}"
-          data-description="A Django Charge"
-          data-amount="500"
-          data-locale="auto"></script>
+    data-key="{{ key }}"
+    data-description="決済テスト"
+    data-amount="500"
+    data-currency="jpy"
+    data-locale="auto">
+  </script>
 </form>
