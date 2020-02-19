@@ -121,5 +121,7 @@ USE_TZ = False
 
 STATIC_URL = '/static/'
 
+##########Stripe Settings###########
 STRIPE_PUBLISHABLE_KEY = 'pk_test_625dEVlpR9JDoLf7fzDrWwON006qJUDcMf'
 STRIPE_SECRET_KEY = 'sk_test_xfaODGLytvGBCP1mDoygvSRO00CsvrzB87'
+
