@@ -7,10 +7,17 @@
 ## Run
 
 ```
+~/.bashrc
+ alias python='/usr/bin/python3f
+
 $ npm install
+$ apt install python3-pip
 $ python -m pip install --upgrade pip
-$ pip install stripe
-$ python manage.py runserver <port>
+$ pip3 install django
+$ pip3 install stripe
+$ python manage.py runserver 0.0.0.0:<port>
+$
+
 ```
 
 ## Django‚Ìg‚¢•û
