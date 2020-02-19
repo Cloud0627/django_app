@@ -16,7 +16,6 @@ $ python -m pip install --upgrade pip
 $ pip3 install django
 $ pip3 install stripe
 $ python manage.py runserver 0.0.0.0:<port>
-$
 
 ```
 
