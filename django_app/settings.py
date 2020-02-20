@@ -37,15 +37,19 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+     #My Apps
     'hello',
     'teststripe',
+    'linebot',
+     #Enable SSL
+    'sslserver',
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+#    'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -125,3 +129,8 @@ STATIC_URL = '/static/'
 STRIPE_PUBLISHABLE_KEY = 'pk_test_625dEVlpR9JDoLf7fzDrWwON006qJUDcMf'
 STRIPE_SECRET_KEY = 'sk_test_xfaODGLytvGBCP1mDoygvSRO00CsvrzB87'
 
+##########Enable SSL###########
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+SECURE_SSL_REDIRECT = False
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = False

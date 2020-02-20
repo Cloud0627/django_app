@@ -22,5 +22,5 @@ urlpatterns = [
     ##path('admin/', admin.site.urls),
     path('hello/', include("hello.urls")),
     path('stripe/', include("teststripe.urls")),
-
+    path('linebot/', include("linebot.urls")),
 ]
