@@ -15,6 +15,7 @@ $ apt install python3-pip
 $ python -m pip install --upgrade pip
 $ pip3 install django
 $ pip3 install stripe
+$ pip3 install django-sslserver
 $ python manage.py runserver 0.0.0.0:<port>
 
 ```
