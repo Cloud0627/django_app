@@ -1,0 +1,2 @@
+LANG=ja_JP.UTF-8
+PATH=/opt/bitnami/frameworks/laravel/app/Console:/opt/bitnami/frameworks/cakephp/bin:/opt/bitnami/frameworks/codeigniter/bin:/opt/bitnami/frameworks/symfony/bin:/opt/bitnami/frameworks/zendframework/app/Console:/opt/bitnami/git/bin:/opt/bitnami/varnish/bin:/opt/bitnami/sqlite/bin:/opt/bitnami/php/bin:/opt/bitnami/mysql/bin:/opt/bitnami/letsencrypt/:/opt/bitnami/apache2/bin:/opt/bitnami/common/bin

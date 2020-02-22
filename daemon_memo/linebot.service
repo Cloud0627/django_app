@@ -1,0 +1,14 @@
+[Unit]
+Description = Linebot daemon
+
+[Service]
+User=bitnami
+Group=bitnami
+WorkingDirectory = /home/bitnami/git/django_app
+EnvironmentFile=/etc/systemd/system/var
+ExecStart = /usr/bin/sudo /usr/bin/python3 /home/bitnami/git/django_app/manage.py runsslserver 0.0.0.0:443 --certificate /home/bitnami/git/django_app/django_app/certs/fullchain.pem --key /home/bitnami/git/django_app/django_app/certs/privkey.pem
+Restart = always
+Type = simple
+
+[Install]
+WantedBy = multi-user.target
