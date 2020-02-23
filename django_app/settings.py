@@ -40,7 +40,7 @@ INSTALLED_APPS = [
      #My Apps
     'hello',
     'teststripe',
-    'linebot',
+    'linebot2',
      #Enable SSL
     'sslserver',
 ]
