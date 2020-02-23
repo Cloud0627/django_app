@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'hello',
     'teststripe',
     'linebot2',
+    'mdprev',
      #Enable SSL
     'sslserver',
 ]
